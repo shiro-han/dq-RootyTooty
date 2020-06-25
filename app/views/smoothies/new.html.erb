@@ -1,0 +1,7 @@
+<h1>Smoothies#new</h1>
+<p>Find me in app/views/smoothies/new.html.erb</p>
+<%= form_for @smoothie do |f| %>
+    Smoothie Name: <%= f.text_field :name %>
+    Ingredients: <%= f.text_area :ingredients_field %>
+    <%= f.submit %>
+<% end %>

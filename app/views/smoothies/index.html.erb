@@ -1,0 +1,4 @@
+<h1>Smoothies Index</h1>
+<% @smoothies.each do |smoothie| %>
+    <%= link_to smoothie.name, smoothie_path(smoothie) %>
+<% end %>

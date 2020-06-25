@@ -1,0 +1,7 @@
+<h1><%= @smoothie.name %></h1>
+
+<ul>
+<% @smoothie.ingredients.each do |i| %>
+    <li><%= i.name %></li>
+<% end %>
+</ul>
